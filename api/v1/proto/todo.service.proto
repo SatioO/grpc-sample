@@ -1,10 +1,10 @@
 syntax="proto3";
 
-package todo;
+package api;
 
 import "google/protobuf/timestamp.proto";
 
-option go_package = ".;todo";
+option go_package = ".;api";
 
 message ToDo {
     // Unique Integer of the todo

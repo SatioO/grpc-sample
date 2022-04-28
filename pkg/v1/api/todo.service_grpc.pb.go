@@ -2,9 +2,9 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.19.4
-// source: api/proto/v1/todo.service.proto
+// source: api/v1/proto/todo.service.proto
 
-package todo
+package api
 
 import (
 	context "context"
@@ -101,5 +101,5 @@ var TodoService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "api/proto/v1/todo.service.proto",
+	Metadata: "api/v1/proto/todo.service.proto",
 }
